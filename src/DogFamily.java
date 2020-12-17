@@ -9,12 +9,12 @@ public class DogFamily extends Dog{
     }
 
     @Override
-    public String high(int h) {
-        return "high " + h;
+    public String high(int meter, double funt){
+        return "high " + meter + " meters, " + funt + " foots";
     }
 
     @Override
-    public String weight(int w) {
-        return "weight " + w;
+    public String weight(int kg, double foot){
+        return "weight " + kg + "kg, " + foot + " funts";
     }
 }
