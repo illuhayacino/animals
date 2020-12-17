@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         Dog dog = new Dog();
-        dog.move("dog ");
-        dog.eat("dog ");
-        dog.weight(6);
-        dog.high(12);
+        System.out.println(dog.move("dog "));
+        System.out.println(dog.eat("dog "));
+        System.out.println(dog.weight(6));
+        System.out.println(dog.high(12));
 
     }
 }

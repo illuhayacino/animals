@@ -5,12 +5,11 @@ public class Dog implements Animal{
     public String eat( String name){
         return (name + " eating");
     }
-      public int high(int h){
-        return h;
-      };
-      public int weight(int w){
-        return w;
-    };
-
+      public String high(int h){
+        return "high " + h;
+      }
+      public String weight(int w){
+        return "weight " + w;
+    }
 
 }
