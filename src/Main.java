@@ -3,7 +3,8 @@ public class Main {
         Dog dog = new Dog();
         dog.move("dog ");
         dog.eat("dog ");
+        dog.weight(6);
+        dog.high(12);
 
-        System.out.println(dog.height + " " + dog.weight);
     }
 }

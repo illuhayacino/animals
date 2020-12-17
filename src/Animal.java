@@ -1,6 +1,6 @@
 public interface Animal {
-    public int weight = 5;
-    public int high = 2;
-    public void move(String name);
-    public void eat (String name);
+    public int weight(int w);
+    public int high(int h);
+    public String move(String name);
+    public String eat (String name);
 }

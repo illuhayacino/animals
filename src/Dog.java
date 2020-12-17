@@ -1,10 +1,16 @@
 public class Dog implements Animal{
-  public void move(String name) {
-     System.out.println(name + "running");
+  public String move(String name) {
+     return (name + " running");
     }
-    public void eat( String name){
-        System.out.println(name + "eating");
+    public String eat( String name){
+        return (name + " eating");
     }
-//    int weight;
-      int height;
+      public int high(int h){
+        return h;
+      };
+      public int weight(int w){
+        return w;
+    };
+
+
 }
